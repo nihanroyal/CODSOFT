@@ -1,0 +1,58 @@
+#CODSOFT
+# To-Do List Application
+
+A simple and efficient to-do list application written in Python to help you organize and manage your tasks effectively.
+
+## Table of Contents
+
+- [Introduction]
+- [Features]
+- [Installation]
+- [Usage]
+- [Examples]
+- [Contributing]
+- [License]
+- [Contact]
+
+Introduction:
+
+The To-Do List Application is a command-line tool that allows users to keep track of tasks, set priorities, and manage deadlines. It's designed to be straightforward and user-friendly, making it easy for anyone to stay organized.
+
+Features:
+
+- Add new tasks with descriptions
+- Mark tasks as complete
+- Remove tasks from the list
+- View all tasks with status and priority levels
+- Save and load tasks from a file
+
+Installation:
+
+To run the To-Do List Application, ensure you have Python installed on your system (version 3.6 or later). Follow these steps to set up the application:
+
+1. Clone the repository:
+
+    bash
+    git clone https://github.com/nihanroyal/CODSOFT
+    cd todo-list-app
+    
+
+2. Create and activate a virtual environment:
+
+    bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    
+
+3. Install dependencies:
+
+    bash
+    pip install -r requirements.txt
+    
+
+Usage:
+
+After installation, you can start using the To-Do List Application from the command line:
+
+```bash
+python todo.py
